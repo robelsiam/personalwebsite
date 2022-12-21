@@ -23,8 +23,7 @@ const Projects = () => {
                         <div className="projects__card-body">{card.description}</div>
 
                         <a href="mailto:robelesiam@gmail.com" rel="noreferrer" className='button'>Check out my resume</a>
-
-                         <a href="mailto:robelesiam@gmail.com" target="_blank" rel="noreferrer" className='button'>Send me an email</a>
+                        <a href="mailto:robelesiam@gmail.com" target="_blank" rel="noreferrer" className='button'>Send me an email</a>
                     </Card>
                     </div>
                 ))}
