@@ -99,9 +99,6 @@ code {
   color: white;
 
   margin-bottom: 10px;
-  @media screen and (min-width: 980px) {
-    font-size: 15px;
-  }
 }
 
 .header__content .button {
@@ -154,9 +151,6 @@ code {
   display: wrap;
   padding: 10px;
   width: 100%;
-  @media screen and (min-width: 980px) {
-    width: 33.33333333333333%;
-  }
 }
 
 .projects__card {
@@ -182,9 +176,6 @@ code {
   margin-bottom: 27px;
   line-height: 1.5;
   font-size: 16px;
-  @media screen and (min-width: 576px) {
-    font-size: 18px;
-  }
 }
 
 .projects__card img {
