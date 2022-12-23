@@ -1,6 +1,5 @@
 // Import Assets
 import React, { useState, useRef } from "react";
-import ReactDOM from "react-dom";
 import { useSpring, animated } from "react-spring";
 
 import website from '../assets/websitescreenshot.png';
@@ -13,13 +12,14 @@ import ScreenShot3 from '../assets/ScreenShot3.png';
 const Projects = () => {
     return (
         <div>
+          <h2>About Me</h2>
             <div className="projects__container">
                 <div className="projects__row">
                  {cards.map((card, i) => (
                     <div className="projects__column">
                     <Card>
                         <div className="projects__card-title">{card.title}</div>
-                        <img src={card.image} />
+                        <img src={card.image} alt="project"/>
                         <div className="projects__card-body">{card.description}</div>
 
                         <a href="mailto:robelesiam@gmail.com" rel="noreferrer" className='button'>Check out my resume</a>
@@ -91,22 +91,6 @@ function Card({ children }) {
       </animated.div>
     );
 }
-
-function Hero({ children }) {
-    return (
-      <div className="projects__hero">
-        <div className="projects__hero-body">{children}</div>
-      </div>
-    );
-}
-
-function Image({ src }) {
-    return (
-            <div className="projects__ratio-inner">
-              <img src={src} alt="Aave Landing Page" />
-            </div>
-    );
-  }
   
 const cards = [
     {
