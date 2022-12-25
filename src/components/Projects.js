@@ -97,20 +97,7 @@ function Card({ children }) {
 }
   
 const cards = [
-    {
-      title: "Personal Website",
-      image: website,
-      description:
-        "custom personal website with domain name and SSL certficate which displays promient projects and a little about myself.",
-      button1:
-        "view website",
-      button2:
-        "View code",
-      button1link:
-        "https://robelsiam.com",
-      button2link:
-        "https://github.com/robelsiam/personalwebsite"
-    },
+  
     {
       title: "Zillow Clone",
       image: ScreenShot2,
@@ -124,6 +111,20 @@ const cards = [
         "cvs",
       button2link:
         "https://github.com/robelsiam/rillow"
+    },
+    {
+      title: "Personal Website",
+      image: website,
+      description:
+        "custom personal website with domain name and SSL certficate which displays promient projects and a little about myself.",
+      button1:
+        "view website",
+      button2:
+        "View code",
+      button1link:
+        "https://robelsiam.com",
+      button2link:
+        "https://github.com/robelsiam/personalwebsite"
     }
 ];
 
