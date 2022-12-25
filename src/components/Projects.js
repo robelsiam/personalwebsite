@@ -2,7 +2,7 @@
 import React, { useState, useRef } from "react";
 import { useSpring, animated } from "react-spring";
 
-import website from '../assets/websitescreenshot.png';
+import website from '../assets/personalwebsite.png';
 import ScreenShot2 from '../assets/ScreenShot2.png';
 import ScreenShot3 from '../assets/ScreenShot3.png';
 
