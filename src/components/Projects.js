@@ -11,25 +11,29 @@ import ScreenShot3 from '../assets/ScreenShot3.png';
 
 const Projects = () => {
     return (
-        <div>
-          <h2>About Me</h2>
+        <section className='projects'>
+          <h2>Projects</h2>
             <div className="projects__container">
                 <div className="projects__row">
                  {cards.map((card, i) => (
                     <div className="projects__column">
                     <Card>
                         <div className="projects__card-title">{card.title}</div>
+
+                        
                         <img src={card.image} alt="project"/>
+                        
                         <div className="projects__card-body">{card.description}</div>
 
-                        <a href="mailto:robelesiam@gmail.com" rel="noreferrer" className='button'>Check out my resume</a>
-                        <a href="mailto:robelesiam@gmail.com" target="_blank" rel="noreferrer" className='button'>Send me an email</a>
+                        <a href={card.button1link} target="_blank" rel="noreferrer" className="button">{card.button1}</a>
+                        <a href={card.button2link} target="_blank" rel="noreferrer" className="button">{card.button2}</a>
+
                     </Card>
                     </div>
                 ))}
                 </div>
             </div>
-        </div>
+        </section>
       );
     
 }
@@ -97,19 +101,43 @@ const cards = [
       title: "Personal Website",
       image: website,
       description:
-        "Create a React web app in the fraction of the time using our library of themes and building blocks. We have everything from navbars and content grids to authentication flows and commenting systems. New blocks are added every week."
+        "custom personal website with domain name and SSL certficate which displays promient projects and a little about myself.",
+      button1:
+        "view website",
+      button2:
+        "View code",
+      button1link:
+        "https://robelsiam.com",
+      button2link:
+        "https://github.com/robelsiam/personalwebsite"
     },
     {
       title: "Zillow Clone",
       image: ScreenShot2,
       description:
-        "Built with developers in mind. Change element structure, edit CSS, create components, add props and state. We give you access to the underlying React code so you can do what you need right in our tool."
+        "nigga.",
+      button1:
+        "View video demo",
+      button2:
+        "View code",
+      button1link:
+        "cvs",
+      button2link:
+        "https://github.com/robelsiam/rillow"
     },
     {
       title: "SQLapp",
       image: ScreenShot3,
       description:
-        "Export your project as a high-quality React codebase. We're lazer focused on helping you build and iterate quickly, but expect that you'll eventually want to export and wrap things up in your favorite code editor."
+        "nigga balls.",
+      button1:
+        "View video demo",
+      button2:
+        "View code",
+      button1link:
+        "cvs",
+      button2link:
+        "https://github.com/robelsiam/sqlapp"
     }
 ];
 
