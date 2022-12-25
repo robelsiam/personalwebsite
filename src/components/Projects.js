@@ -124,20 +124,6 @@ const cards = [
         "cvs",
       button2link:
         "https://github.com/robelsiam/rillow"
-    },
-    {
-      title: "SQLapp",
-      image: ScreenShot3,
-      description:
-        "nigga balls.",
-      button1:
-        "View video demo",
-      button2:
-        "View code",
-      button1link:
-        "cvs",
-      button2link:
-        "https://github.com/robelsiam/sqlapp"
     }
 ];
 
