@@ -1,4 +1,3 @@
-import rain from '../assets/matrixrain.gif';
 
 const Banner = () => {
 
