@@ -3,7 +3,7 @@ import React, { useState, useRef } from "react";
 import { useSpring, animated } from "react-spring";
 
 import website from '../assets/personalwebsite.png';
-import ScreenShot2 from '../assets/ScreenShot2.png';
+import rillow from '../assets/rillow.png';
 
 
 
@@ -113,7 +113,7 @@ const cards = [
     },
     {
       title: "Zillow Clone",
-      image: ScreenShot2,
+      image: rillow,
       description:
         "nigga.",
       button1:
@@ -121,7 +121,7 @@ const cards = [
       button2:
         "View code",
       button1link:
-        "cvs",
+        "https://www.youtube.com/watch?v=ehow0I26DPs",
       button2link:
         "https://github.com/robelsiam/rillow"
     }
