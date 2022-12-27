@@ -2,7 +2,7 @@
 
 ## Technology Stack & Tools
 
-- Javascript (React & Testing)
+- Javascript
 - [React.js](https://reactjs.org/) (Frontend Framework)
 
 ## Requirements For Initial Setup
