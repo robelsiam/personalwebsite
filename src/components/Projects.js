@@ -4,7 +4,6 @@ import { useSpring, animated } from "react-spring";
 
 import website from '../assets/personalwebsite.png';
 import ScreenShot2 from '../assets/ScreenShot2.png';
-import ScreenShot3 from '../assets/ScreenShot3.png';
 
 
 
@@ -99,20 +98,6 @@ function Card({ children }) {
 const cards = [
   
     {
-      title: "Zillow Clone",
-      image: ScreenShot2,
-      description:
-        "nigga.",
-      button1:
-        "View video demo",
-      button2:
-        "View code",
-      button1link:
-        "cvs",
-      button2link:
-        "https://github.com/robelsiam/rillow"
-    },
-    {
       title: "Personal Website",
       image: website,
       description:
@@ -125,6 +110,20 @@ const cards = [
         "https://robelsiam.com",
       button2link:
         "https://github.com/robelsiam/personalwebsite"
+    },
+    {
+      title: "Zillow Clone",
+      image: ScreenShot2,
+      description:
+        "nigga.",
+      button1:
+        "View video demo",
+      button2:
+        "View code",
+      button1link:
+        "cvs",
+      button2link:
+        "https://github.com/robelsiam/rillow"
     }
 ];
 
