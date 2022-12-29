@@ -101,7 +101,7 @@ const cards = [
       title: "Personal Website",
       image: website,
       description:
-        "custom personal website with domain name and SSL certficate which displays promient projects and a little about myself.",
+        "Portfolio website initialized with create react app. Accessible online at robelsiam.com with SSL certificate and custom domain for site security.",
       button1:
         "view website",
       button2:
@@ -112,10 +112,10 @@ const cards = [
         "https://github.com/robelsiam/personalwebsite"
     },
     {
-      title: "Zillow Clone",
+      title: "Rillow",
       image: rillow,
       description:
-        "nigga.",
+        "Zillow clone dapp connected to a Hardhat test network. Rillow lists three ERC-721 tokens (when connected to a Blockchain wallet) owned by a test Hardhat wallet and in order to purchase the token the sale must go through the approval of an inspector and lender (two separate wallet accounts). ",
       button1:
         "View video demo",
       button2:
