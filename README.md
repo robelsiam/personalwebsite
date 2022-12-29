@@ -13,6 +13,7 @@
 
 ### 2. Install Dependencies:
 `$ npm install`
+`$ npm install react-pdf`
 
 ### 3. Start frontend
 `$ npm run start`
