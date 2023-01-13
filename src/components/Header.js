@@ -1,4 +1,3 @@
-import { Document } from 'react-pdf';
 // Import Assets
 import morpheus from '../assets/morpheus.gif';
 import resume from '../assets/RobelSiamResume4website.pdf';

@@ -5,6 +5,16 @@
   padding: 0;
   box-sizing: border-box;
 }
+::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  /* Firefox Fix */
+  overflow: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
 
 body {
   margin: 0;
@@ -21,13 +31,13 @@ code {
 }
 
 .App {
-  max-width: 100%;
-  margin: 0 auto;
+  max-width: flex;
+  margin: 0 ;
 }
 
 .background {
   background-color: rgb(4, 4, 4);
-  color: rgb(18, 161, 18);
+  color: orange;
 }
 
 
@@ -55,7 +65,7 @@ code {
   position: relative;
   display: inline-block;
 
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 
 }
 
@@ -165,19 +175,19 @@ code {
   box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.3);
   transition: box-shadow 2s;
   will-change: transform; 
-  border: 1px solid rgb(18, 161, 18);
+  border: 1px solid orange;
   border-radius: 8px;
   margin-left: 0px;
 }
 
 .projects__card-title {
-  color: rgb(18, 161, 18);
+  color: orange;
   font-size: 22px;
   font-weight: 600;
 }
 
 .projects__card-body {
-  color: rgb(18, 161, 18);
+  color: orange;
   margin-top: 27px;
   margin-bottom: 27px;
   line-height: 1.5;
@@ -191,7 +201,7 @@ code {
 
   border-radius: 8px;
 
-  border: 1px solid rgb(18, 161, 18);
+  border: 1px solid orange;
   border-radius: 1px;
 }
 

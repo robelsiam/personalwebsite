@@ -13,7 +13,7 @@
 
 ### 2. Install Dependencies:
 `$ npm install`
-`$ npm install react-pdf`
+`$ npm install react-spring`
 
 ### 3. Start frontend
 `$ npm run start`
