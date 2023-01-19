@@ -1,11 +1,7 @@
 // Import Assets
 import React, { useState, useRef } from "react";
 import { useSpring, animated } from "react-spring";
-
-import website from '../assets/personalwebsite.png';
 import rillow from '../assets/rillow.png';
-
-
 
 
 const Projects = () => {
@@ -34,7 +30,6 @@ const Projects = () => {
             </div>
         </section>
       );
-    
 }
 
 function Card({ children }) {
@@ -96,21 +91,6 @@ function Card({ children }) {
 }
   
 const cards = [
-  
-    {
-      title: "Personal Website",
-      image: website,
-      description:
-        "Portfolio website initialized with create react app. Accessible online at robelsiam.com with SSL certificate and custom domain for site security.",
-      button1:
-        "view website",
-      button2:
-        "View code",
-      button1link:
-        "https://robelsiam.com",
-      button2link:
-        "https://github.com/robelsiam/personalwebsite"
-    },
     {
       title: "Rillow",
       image: rillow,
