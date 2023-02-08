@@ -2,7 +2,7 @@
 
 ## Technology Stack & Tools
 
-- Javascript(React)
+- Javascript (React)
 
 ## Requirements For Initial Setup
 - Install [NodeJS](https://nodejs.org/en/)
