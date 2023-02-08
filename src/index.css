@@ -47,7 +47,7 @@ code {
 .experience,
 .social,
 .footer {
-  padding: 50px 25px 25px;
+  padding: 5vh 2vh 2vh;
   justify-content: center;
 
   align-items: center;
@@ -158,7 +158,7 @@ code {
 }
 
 .projects__column {
-  display: wrap;
+  display: center;
   padding: 10px;
   width: 100%;
 }
@@ -166,7 +166,8 @@ code {
 .projects__card {
   display: flex;
   flex-direction: column;
-  width: 50vw;
+  width: 80vw;
+  height: 30vw;
   padding: 4vw;
   background-color: rgb(0, 0, 0);
   box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.3);
@@ -192,17 +193,16 @@ code {
 }
 
 .projects__card img {
-  width:80%;
+  width:40vh;
   height: auto;
 
-  margin-top: 2%;
 
   border: 1px solid orange;
   align-self: center;
 }
 
 .projects__card .button {
-  margin: 25px auto 0
+  margin: 1vh auto 
 }
 
 
@@ -240,10 +240,10 @@ code {
   background: #001cf4;
   color: #7785f1;
 
-  padding: 15px 50px;
+  padding: 1vh .5vh;
 
   border: none;
-  border-radius: 30px;
+  border-radius: 10vh;
 
   font-family: "Work Sans";
   font-size: 16px;
