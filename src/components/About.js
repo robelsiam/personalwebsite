@@ -3,7 +3,7 @@
 const About = () => {
     return (
         <section className='about'>
-            <h2>About Me</h2>
+            <h2>Bio</h2>
             <p>
             I am 21 and currently studying for my BS in Computer Science at GMU. Computer programs and the quality they have to 
             present and transfer any form of information the author is capable of conceiving has always been a topic of interest 
