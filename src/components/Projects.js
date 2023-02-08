@@ -2,6 +2,7 @@
 import React, { useState, useRef } from "react";
 import { useSpring, animated } from "react-spring";
 import rillow from '../assets/rillow.png';
+import nftflag from '../assets/nftflagcollection.png';
 
 
 const Projects = () => {
@@ -104,7 +105,22 @@ const cards = [
         "https://www.youtube.com/watch?v=ehow0I26DPs",
       button2link:
         "https://github.com/robelsiam/rillow"
-    }
+    },
+    {
+      title: "Flag NFT Collection",
+      image: nftflag,
+      description:
+        "NFT minting dapp connected to a Hardhat test network. This will generate a random three striped flag ERC-721 token accessible on Opensea.",
+      button1:
+        "Vist website",
+      button2:
+        "View code",
+      button1link:
+        "https://long-cloud-9869.on.fleek.co/",
+      button2link:
+        "https://github.com/robelsiam/nftwebsite"
+    },
+
 ];
 
 export default Projects;
