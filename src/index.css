@@ -63,7 +63,7 @@ h2 {
 
 #rd {   
   display: flex;
-  height: 100px;
+  height: 10rem;
   width: 100%;
   background: url(./assets/matrixrain.gif) center repeat-x;    
   background-size: auto 100%;    
@@ -118,9 +118,9 @@ h2 {
 }
 
 .header__content .button {
-  width: 40ex;
-  margin: 0px 15px;
-  margin-bottom: 10px;
+  margin: 1rem;
+  padding: 1rem;
+  width: 10rem;
 }
 
 .header__content .img {
@@ -203,7 +203,9 @@ h2 {
 }
 
 .projects__card .button {
-  margin: 25px auto 0
+  margin: 1rem auto 0;
+  padding: 1rem;
+  width: 10rem;
 }
 
 
@@ -216,9 +218,9 @@ h2 {
 /* -- Social Media -- */
 
 .social .button {
-  margin: 0px 15px;
-  margin-left: 0px;
-  margin-bottom: 10px;
+  margin: 1rem auto 0;
+  padding: 1rem;
+  width: 10rem;
 }
 
 /* ------------------------------------------------------ */
@@ -236,8 +238,6 @@ h2 {
   background: #001cf4;
   color: #7785f1;
 
-  padding: 15px 50px;
-
   border: none;
   border-radius: 30px;
 
@@ -250,7 +250,8 @@ h2 {
 
   transition: all 250ms ease;
 
-  gap: 20px;
+  text-align: center
+
 }
 
 .button:hover {
