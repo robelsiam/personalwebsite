@@ -174,7 +174,6 @@ h2 {
   transition: box-shadow 2s;
   will-change: transform; 
   border: 1px solid orange;
-  margin-left: 0px;
 }
 
 .projects__card-title {
@@ -218,7 +217,7 @@ h2 {
 /* -- Social Media -- */
 
 .social .button {
-  margin: 1rem auto 0;
+  margin: 1rem;
   padding: 1rem;
   width: 10rem;
 }
