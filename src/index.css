@@ -40,6 +40,11 @@ code {
   color: orange;
 }
 
+h2 {
+  font-size: 42px;
+  margin: 25px auto;
+}
+
 
 .header,
 .about,
@@ -99,8 +104,8 @@ code {
 }
 
 .header__content h1 {
-  font-size: 42px;
-  margin-bottom: 10px;
+  font-size: 2rem;
+  margin-bottom: 5vh;
 }
 
 .header__content p {
@@ -128,10 +133,6 @@ code {
 /* ------------------------------------------------------ */
 /* -- About -- */
 
-.about h2 {
-  font-size: 42px;
-  margin: 25px auto;
-}
 
 .about p {
   font-size: 18px;
@@ -213,11 +214,6 @@ code {
 
 /* ------------------------------------------------------ */
 /* -- Social Media -- */
-
-.social h2 {
-  font-size: 42px;
-  margin: 25px auto;
-}
 
 .social .button {
   margin: 0px 15px;
