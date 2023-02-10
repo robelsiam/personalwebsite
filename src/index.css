@@ -185,10 +185,10 @@ h2 {
 
 .projects__card-body {
   color: orange;
-  margin-top: 27px;
-  margin-bottom: 27px;
+  margin-top: 1rem;
   line-height: 1.5;
-  font-size: 16px;
+  font-size: 1rem;
+  padding: 2rem;
 }
 
 .projects__card img {
