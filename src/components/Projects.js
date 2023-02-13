@@ -9,7 +9,6 @@ const Projects = () => {
     return (
         <section className='projects'>
           <h2>Projects</h2>
-            <div className="projects__container">
                 <div className="projects__row">
                  {cards.map((card, i) => (
                     <div className="projects__column">
@@ -28,7 +27,6 @@ const Projects = () => {
                     </div>
                 ))}
                 </div>
-            </div>
         </section>
       );
 }
