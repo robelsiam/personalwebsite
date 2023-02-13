@@ -27,7 +27,6 @@ body {
 
 .App {
   max-width: flex;
-  margin: 0 ;
 }
 
 .background {
@@ -125,12 +124,7 @@ h2 {
 
 .projects__row {
   display: inline-block;
-}
-
-.projects__column {
-  display: wrap;
-  padding: 10px;
-  width: 100%;
+  padding: 1rem;
 }
 
 .projects__card {
@@ -142,6 +136,7 @@ h2 {
   transition: box-shadow 2s;
   will-change: transform; 
   border: 1px solid orange;
+  margin-bottom: 1rem;
 }
 
 .projects__card-title {
@@ -186,7 +181,6 @@ h2 {
 /* ------------------------------------------------------ */
 /* -- Footer -- */
 .footer {
-  margin: 0 auto;
   text-align: center;
 }
 
