@@ -41,10 +41,8 @@ code {
 }
 
 h2 {
-  font-size: 42px;
-  margin: 25px auto;
+  font-size: 2rem;
 }
-
 
 .header,
 .about,
@@ -52,10 +50,8 @@ h2 {
 .experience,
 .social,
 .footer {
-  padding: 5rem ;
-  justify-content: center;
+  padding: 2rem;
 
-  align-items: center;
 }
 
 /* ------------------------------------------------------ */
@@ -100,21 +96,11 @@ h2 {
 
 .header__content {
   width: 1700px;
-  margin: 0 auto;
 }
 
 .header__content h1 {
   font-size: 2rem;
   margin-bottom: 5vh;
-}
-
-.header__content p {
-  font-size: 30px;
-
-  font-style: italic;
-  color: white;
-
-  margin-bottom: 10px;
 }
 
 .header__content .button {
@@ -123,39 +109,27 @@ h2 {
   width: 10rem;
 }
 
-.header__content .img {
-
-  width:36%;
-  height: auto;
-
-}
-
 /* ------------------------------------------------------ */
 /* -- About -- */
-
 
 .about p {
   font-size: 18px;
   line-height: 130%;
-  max-width: 75ch;
+  max-width: auto;
 }
 
 /* ------------------------------------------------------ */
 /* -- Projects -- */
 
-
-
-
 .projects__container {
-  
-  display: grid;
   max-width: 200px;
   width: auto;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .projects__row {
   display: inline-block;
-  flex-wrap: nowrap;
 }
 
 .projects__column {
@@ -207,12 +181,6 @@ h2 {
   width: 10rem;
 }
 
-
-
-
-
-
-
 /* ------------------------------------------------------ */
 /* -- Social Media -- */
 
@@ -231,6 +199,7 @@ h2 {
 
 /* ------------------------------------------------------ */
 /* -- HTML COMPONENTS: BUTTON -- */
+
 .button {
   display: inline-block;
 
@@ -249,7 +218,7 @@ h2 {
 
   transition: all 250ms ease;
 
-  text-align: center
+  text-align: center;
 
 }
 
