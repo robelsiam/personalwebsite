@@ -11,10 +11,8 @@ const Projects = () => {
           <h2>Projects</h2>
                 <div className="projects__row">
                  {cards.map((card, i) => (
-                    <div className="projects__column">
                     <Card>
                         <div className="projects__card-title">{card.title}</div>
-
                         
                         <img src={card.image} alt="project"/>
                         
@@ -22,9 +20,7 @@ const Projects = () => {
 
                         <a href={card.button1link} target="_blank" rel="noreferrer" className="button">{card.button1}</a>
                         <a href={card.button2link} target="_blank" rel="noreferrer" className="button">{card.button2}</a>
-
                     </Card>
-                    </div>
                 ))}
                 </div>
         </section>
