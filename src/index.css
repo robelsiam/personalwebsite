@@ -51,7 +51,6 @@ h2 {
 .social,
 .footer {
   padding: 2rem;
-
 }
 
 /* ------------------------------------------------------ */
@@ -130,6 +129,7 @@ h2 {
 
 .projects__row {
   display: inline-block;
+  margin: 1rem
 }
 
 .projects__column {
@@ -159,10 +159,8 @@ h2 {
 
 .projects__card-body {
   color: orange;
-  margin-top: 1rem;
   line-height: 1.5;
   font-size: 1rem;
-  padding: 2rem;
 }
 
 .projects__card img {
