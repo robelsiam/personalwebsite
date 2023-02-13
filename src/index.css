@@ -25,11 +25,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
 .App {
   max-width: flex;
   margin: 0 ;
@@ -51,6 +46,7 @@ h2 {
 .social,
 .footer {
   padding: 2rem;
+  font-family:Arial;
 }
 
 /* ------------------------------------------------------ */
@@ -93,10 +89,6 @@ h2 {
   text-align: center;
 }
 
-.header__content {
-  width: 1700px;
-}
-
 .header__content h1 {
   font-size: 2rem;
   margin-bottom: 5vh;
@@ -105,7 +97,7 @@ h2 {
 .header__content .button {
   margin: 1rem;
   padding: 1rem;
-  width: 10rem;
+  width: 15rem;
 }
 
 /* ------------------------------------------------------ */
@@ -205,8 +197,8 @@ h2 {
 
   border: none;
   border-radius: 30px;
-
-  font-family: "Work Sans";
+  font-family: Georgia;
+  font-style: italic;
   font-size: 16px;
   font-weight: 700;
   text-decoration: none;
